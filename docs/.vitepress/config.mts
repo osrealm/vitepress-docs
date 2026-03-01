@@ -23,7 +23,7 @@ export default defineConfig({
     //排除应作为源内容输出的.md文件
     srcExclude: ["**/README.md", "**/TODO.md"],
     //项目的构建输出位置,
-    outDir: "public",
+    outDir: "./.vitepress/dist",
     //放置生成的静态资源的目录,应位于outDir内,并相对于它进行解析
     assetsDir: "static",
     // 缓存目录,默认值./.vitepress/cache
