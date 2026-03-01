@@ -16,7 +16,7 @@ export default defineConfig({
     description: "A VitePress site",
     //<head>标签内要渲染的其他元素,用户添加的标签会在<head>标签之前,vitepress标签之后渲染
     //配置网页标签页logo
-    head: [["link", { rel: "icon", href: "/svg/bug.svg" }]],
+    head: [["link", { rel: "icon", href: "/vitepress-docs/svg/sun.svg" }]],
     //删除url中.html后缀
     cleanUrls: true,
     //指定源目录,默认情况下与项目根目录相同,srcDir是相当于项目根目录解析的,如果修改了源目录,则所有路由均需要对应修改,否则会404
