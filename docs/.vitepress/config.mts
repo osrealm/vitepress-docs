@@ -6,7 +6,8 @@ export default defineConfig({
     // 设置语言
     lang: "zh-CN",
     // 部署站点的基础路径,默认值为"/",如果站点部署在子路径下,则需要设置为子路径,例如"/docs/"
-    // base: '/docs/',
+    //部署在github.io上时,例如https://osrealm.github.io/vitepress-docs/,一定和最后的仓库名保持一致
+    base: '/vitepress-docs/',
     // 网站左上角标题
     title: "osrealm docs",
     // 浏览器标签页标题,:title表示当前标题
