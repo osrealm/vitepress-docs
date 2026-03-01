@@ -7,7 +7,7 @@ hero:
   text: "一个VitePress站点"
   tagline: 开源领域是一个专注于开源项目的平台，致力于分享、交流和推广开源软件。
   image:
-    src: /svg/sun.svg
+    src: /svg/open_source.svg
     alt: 首页图标
   actions:
     - theme: brand

@@ -42,9 +42,9 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         //网站左上角logo
         logo: {
-            light: "/svg/bug.svg",
-            dark: "/svg/bug.svg",
-            alt: "/svg/bug.svg",
+            light: "/svg/sun.svg",
+            dark: "/svg/sun.svg",
+            alt: "/svg/sun.svg",
         },
         // 导航菜单栏配置
         nav: [
