@@ -65,3 +65,8 @@ pnpm run docs:build // 打包
 进入你的 GitHub 仓库，点击顶部的 Settings
 在左侧菜单找到并点击 Pages
 在 Source 部分，选择 GitHub Actions
+
+在仓库的 Settings -> Actions -> General 中
+找到 Workflow permissions，确保选择了 Read and write permissions
+勾选 Allow GitHub Actions to create and approve pull requests
+保存设置
