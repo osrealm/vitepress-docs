@@ -59,3 +59,9 @@ vitepress-docs
 
 pnpm run docs:dev //启动本地预览
 pnpm run docs:build // 打包
+
+# 部署到github.io方法
+
+进入你的 GitHub 仓库，点击顶部的 Settings
+在左侧菜单找到并点击 Pages
+在 Source 部分，选择 GitHub Actions
